@@ -1,0 +1,24 @@
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/trip';
+@import 'blocks/price';
+@import 'blocks/reviews';
+@import 'blocks/blog';
+@import 'blocks/socials';
+@import 'blocks/footer';
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background: linear-gradient(180deg, #FFF 0%, rgba(217, 217, 217, 0.00) 100%);
+
+}
+button {
+    cursor: pointer;
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}

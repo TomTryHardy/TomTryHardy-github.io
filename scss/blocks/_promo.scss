@@ -1,0 +1,100 @@
+.promo {
+    background: url('../img/Backs/main_bg.svg') center (center/cover) no-repeat ;
+    margin: 0 auto;
+    width: 1440px;
+    height: 639px;
+    padding-top: 130px;
+    padding-bottom: 62px;
+    &__header {
+        color: #252525;
+        text-align: center;
+        font-size: 42px;
+        font-weight: 900;
+        line-height: 52px;
+    }
+    &__swoosh {
+        text-align: center;
+    }
+    &__text {
+        color: #252525;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    &__find {
+        border-radius: 100px;
+        background: #FFF;
+        box-shadow: 0px 42px 80px 0px rgba(0, 0, 0, 0.25);
+        padding: 10px 11px 10px 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 779px;
+        margin: 0 auto;
+        margin-top: 48px;
+        &-left {
+            display: flex;
+            align-items: center;
+            input {
+                border: none;
+                outline: none;
+                width: 200px;
+                placeholder {
+                    color: #7B7B7B;
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+            }
+        }
+        &-icon {
+            width: 37px;
+            height: 37px;
+            border-radius: 100%;
+            background: #FFF;
+            border: 1px #DBDBDB solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+        }
+        &-divider {
+            width: 1px;
+            height: 36.922px;
+            background: #EBEBEB;
+            margin-right: 29px;
+        }
+        &-btn {
+            display: flex;
+            justify-content: center;
+            column-gap: 9px;
+            border-radius: 100px;
+            background: #FFD600;
+            border: none;
+            padding: 19px 30px;
+            align-items: center;
+            color: #000;
+            font-size: 15px;
+            font-weight: 500;
+        }
+    }
+    &__cities {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 15px;
+        margin-top: 128px;
+    }
+    &__descr {
+        margin-right: 3px;
+        color: #252525;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    &__item {
+        border-radius: 30px;
+        background: rgba(37, 37, 37, 0.15);
+        color: #FFFFFF;
+        border: none;
+        padding: 6px 14.5px 9px 14.5px;
+    }
+}

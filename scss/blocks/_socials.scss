@@ -1,0 +1,52 @@
+.socials {
+    padding: 105px;
+    padding-bottom: 105px;
+    &__main {
+        background: url('../img/Backs/Tourist.svg') center (center/cover) no-repeat;
+        padding-top: 91px;
+        padding-bottom: 55px;
+        padding-left: 106px;
+    }
+    &__header {
+        color: #252525;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    &__subheader {
+        color: #252525;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 23px;
+    }
+    &__links {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    }
+    &__link {
+        padding: 20px 25px 20px 31px;
+        border-radius: 9px;
+        background: #FFF;
+        border: none;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        color: #1C1C1B;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    &__politics {
+        margin-top: 112px;
+        color: #7A7A7A;
+        font-size: 12px;
+        font-weight: 400;
+        span {
+            color: #7A7A7A;
+            font-size: 12px;
+            font-weight: 400;
+            text-decoration-line: underline;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+.reviews {
+    padding-top: 104px;
+    padding-bottom: 114px;
+    &__main {
+        padding: 69px 91px 80px 98px;
+        border-radius: 20px;
+        background: #FFF;
+        box-shadow: 0px 27px 31px 0px rgba(0, 0, 0, 0.02);
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+    }
+    &__header {
+        color: #252525;
+        font-size: 36px;
+        font-weight: 800;
+    }
+    &__subheader {
+        color: #252525;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; 
+        margin-top: 21px;
+    }
+    &__btn {
+        border-radius: 100px;
+        background: #FFD600;
+        border: none;
+        color: #000;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 18px 26px;
+        margin-top: 68px;
+    }
+    &__user {
+        display: flex;
+        column-gap: 41px;
+        align-items: start;
+    }
+    &__name {
+        color: #252525;
+        font-size: 17px;
+        font-weight: 500;
+        margin-bottom: 16px;
+    }
+    &__divider {
+        width: 563.844px;
+        height: 1px;
+        background: #EBEBEB;
+    }
+    &__estimate {
+        display: flex;
+        column-gap: 50px;
+        align-items: center;
+        margin-top: 8px;
+        margin-bottom: 11px;
+        &-tour {
+            color: #7B7B7B;
+            font-size: 14px;
+            font-weight: 400;
+            span {
+                color: #252525;
+                font-size: 14px;
+                font-weight: 400;
+                text-decoration-line: underline;
+            }
+        }
+        &-items {
+            display: flex;
+            align-items: center;
+            color: #7B7B7B;
+            font-size: 14px;
+            font-weight: 400;
+            div {
+                margin-right: 7px;
+            }
+        }
+        &-item {
+            margin-left: 6px;
+        }
+    }
+    &__description {
+        color: #252525;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 16px;
+    }
+    &__slider {
+        display: flex;
+        justify-content: end;
+        column-gap: 32px;
+        margin-top: 54px;
+        &-buttons {
+            display: flex;
+            align-items: center;
+            column-gap: 15px;
+        }
+        &-button {
+            width: 46px;
+            height: 46px;
+            border: 2px solid #D2D2D2;
+            border-radius: 100%;
+        }
+    }
+}
